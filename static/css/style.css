@@ -20,7 +20,7 @@
     font-style:normal;
 }
 header {
-    background-image: linear-gradient(to right, rgba(125, 126, 125, 0.7) 0%, rgba(14, 14, 14, 0.7) 100%), url(../static/img/probejka.jpg);
+    background-image: linear-gradient(to right, rgba(125, 126, 125, 0.7) 0%, rgba(14, 14, 14, 0.7) 100%), url(../img/probejka.jpg);
     background-size: cover;
     background-position:center;
     font-family: 'Source Code Pro', monospace;
