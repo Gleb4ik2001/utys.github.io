@@ -1,26 +1,26 @@
 @font-face {
     font-family:'Pixelify Sans' ;
     src:    url('/static/'),
-            url(/static/fonts/PixelifySans-Medium.ttf),
-            url(/static/fonts/PixelifySans-Regular.ttf),
-            url(/static/fonts/PixelifySans-SemiBold.ttf);
+            url(../fonts/PixelifySans-Medium.ttf),
+            url(../fonts/PixelifySans-Regular.ttf),
+            url(../fonts/PixelifySans-SemiBold.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Play regular';
-    src:    url(/static/fonts/Play-Regular.ttf);
+    src:    url(../fonts/Play-Regular.ttf);
     font-weight: normal;
     font-style:normal;
 }
 @font-face {
     font-family: 'Play bald';
-    src:    url(/static/fonts/Play-Bold.ttf);
+    src:    url(../fonts/Play-Bold.ttf);
     font-weight: bold;
     font-style:normal;
 }
 header {
-    background-image: linear-gradient(to right, rgba(125, 126, 125, 0.7) 0%, rgba(14, 14, 14, 0.7) 100%), url(/img/probejka.jpg);
+    background-image: linear-gradient(to right, rgba(125, 126, 125, 0.7) 0%, rgba(14, 14, 14, 0.7) 100%), url(../img/probejka.jpg);
     background-size: cover;
     background-position:center;
     font-family: 'Source Code Pro', monospace;
