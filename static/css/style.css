@@ -1,0 +1,44 @@
+@font-face {
+    font-family:'Pixelify Sans' ;
+    src:    url(/static/fonts/PixelifySans-Bold.ttf),
+            url(/static/fonts/PixelifySans-Medium.ttf),
+            url(/static/fonts/PixelifySans-Regular.ttf),
+            url(/static/fonts/PixelifySans-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Play regular';
+    src:    url(/static/fonts/Play-Regular.ttf);
+    font-weight: normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: 'Play bald';
+    src:    url(/static/fonts/Play-Bold.ttf);
+    font-weight: bold;
+    font-style:normal;
+}
+header {
+    background-image: linear-gradient(to right, rgba(125, 126, 125, 0.7) 0%, rgba(14, 14, 14, 0.7) 100%), url(/static/img/probejka.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family: 'Source Code Pro', monospace;
+}
+#strategy{
+    padding: 150px 0;
+}
+header  {
+    padding: 250px 0;
+    font-family: 'Play regular', sans-serif;
+}
+.title_font_class{
+    font-family:'Pixelify Sans', sans-serif;
+}
+.font_play_bald{
+    font-family:'Play bald' ,sans-serif;
+}
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    background-color: darkblue;
+}
